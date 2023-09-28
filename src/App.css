@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container{
+  height: 500px;
+  width: 450px;
+  margin: 0px;
+  padding: 10px;
+  background-image: url(./bg-img\ \(2\).jpg);
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  box-shadow: 1px 1px 14px 3px #11a4ec;
+
+}
+.main-heading{
+  font-size: 30px;
+  font-family: math Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+  margin: 0px;
+  display: flex;
+ 
+}
+.input-box{
+  display: flex;
+  height:30px;
+  width: 100px;
+  border-radius: 5px;
+  padding-left: 20px;
+  border: none;
+  background-color: #cceeff;
+  
+  
+}
+.input-box:hover{
+  border: none;
+}
+.city-heading{
+  font-family: sans-serif;
+}
+.heading-city{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+  margin: 0px;
+  font-size: 40px;
+  margin-top: 15px;
+  margin-bottom: 50px;
 }
-
-.App-link {
-  color: #61dafb;
+.main-tempature{
+  margin: 0px;
+  margin-bottom:15px;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-visibility{
+  font-size:25px;
+  margin-bottom: 15px;
+}
+.main-discription{
+  font-size: 30px;
+  margin-bottom: 50px;
 }
